@@ -1,0 +1,171 @@
+import numpy as np 
+marks = np.array ([90,89,70,78])
+Result = marks + 5
+print (Result)
+
+
+
+import numpy as np
+x = np.array([
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 10]
+])
+
+y = np.array([5, 10, 15])
+
+print(x + y)
+
+#shape
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+print(x.shape)
+
+#flatten
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+print(x.flatten())
+
+#hstack
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+print(np.hstack((x, x)))
+
+#transpose
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+print(x.transpose())
+#vstack
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+print(np.vstack((x, x)))
+# concatenate
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+print(np.concatenate((x, x)))
+import numpy as np
+
+x = np.array([[2, 1, 1],
+              [2, 1, 3]])
+
+y = np.array([[2, 3, 4],
+              [5, 6, 7]])
+
+print(np.concatenate((x, y), axis=1))
+ 
+# for mean 
+
+
+
+import numpy as np
+
+marks = np.array([
+    [60, 70, 80],
+    [70, 80, 90],
+    [70, 80, 60]
+])
+
+print(marks)
+print(np.mean(marks))
+print("shape:", marks.shape)
+
+Result = np.mean(marks, axis=1)
+
+print(Result)
+print(Result.shape)
+
+import numpy as np
+
+marks = np.array([
+    [60, 70, 80],
+    [70, 80, 90],
+    [70, 80, 60]
+])
+
+print(marks)
+print(np.mean(marks))
+print("shape:", marks.shape)
+
+Result = np.mean(marks, axis=0)
+
+print(Result)
+print(Result.shape)
+
+
+
+
+#for median
+import numpy as np
+
+marks = np.array([
+    [60, 70, 80],
+    [70, 80, 90],
+    [70, 80, 60]
+])
+
+print(marks)
+print(np.median(marks))
+print("shape:", marks.shape)
+
+Result = np.mean(marks, axis=1)
+
+print(Result)
+print(Result.shape)
+
+import numpy as np
+
+marks = np.array([
+    [60, 70, 80],
+    [70, 80, 90],
+    [70, 80, 60]
+])
+
+print(marks)
+print(np.median(marks))
+print("shape:", marks.shape)
+
+Result = np.mean(marks, axis=0)
+
+print(Result)
+print(Result.shape)
+
+
+#for Standard deviation
+
+
+
+
+import numpy as np
+
+marks = np.array([
+    [60, 70, 80],
+    [70, 80, 90],
+    [70, 80, 60]
+])
+
+print(marks)
+print(np.std(marks))
+print("shape:", marks.shape)
+
+Result = np.std(marks, axis=1)
+
+print(Result)
+print(Result.shape)
